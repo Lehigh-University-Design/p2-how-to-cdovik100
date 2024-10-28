@@ -1,0 +1,92 @@
+body{
+    background-color: #072E71;
+
+}
+
+.landing{
+    background-color: antiquewhite;
+        display: flex;
+        align-items: center;   /* Centers content vertically */
+        justify-content: center; /* Centers content horizontally */
+        width: 100vw;          /* Full viewport width */
+        height: 100vh;         /* Full viewport height */
+        background-color: #072E71; /* Background color */
+        background-image: url('images/updated\ art.png');
+        background-size: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        color: red;        /* Text color */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+        text-align: center;
+}
+
+.stepsContainer{
+    max-width: 50%;
+    background-color: #072E71;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    /* padding-left: 10vw; */
+
+}
+
+.step{
+    display: flex;
+    background-color: #072E71;
+    flex-direction: column;
+    margin: 10px 0;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+
+
+    .placeholder{
+        width: 150px;
+        height: 150px;
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #777;
+        font-size: 20px;
+    }    
+
+
+    .stepInfo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+.left{
+
+}
+
+.right{
+    background-color: #072E71;
+    padding: 40px;
+    max-width: 50%;
+
+}
+
+
+.recipe{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    /* width: 100%; */
+
+    /* background-color: #072E71; */
+}
+.nav{
+    max-height: 30vh;
+    min-width: 10vw;
+    position: sticky;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFCF56;
+}
